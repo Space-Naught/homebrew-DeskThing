@@ -7,11 +7,11 @@ class Testthingmac < Formula
   if Hardware::CPU.intel?
     # For Intel Macs (x64)
     url "https://github.com/ItsRiprod/TestThing/releases/download/v0.10.76/DeskThing-0.10.76-mac.zip"
-    sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    sha256 "44e010d962a471bb4a83922c6b1c0e3ecbc741d55cea374ac9295098feae1d95"
   else
     # For ARM Macs (mac)
     url "https://github.com/ItsRiprod/TestThing/releases/download/v0.10.76/DeskThing-0.10.76-arm64-mac.zip"
-    sha256 "a2390ae2229228678afa21486f0e502648a543ec103df730b93472ef88ba423e"
+    sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   end
 
   # Prevent Homebrew from attempting to fix linkage
