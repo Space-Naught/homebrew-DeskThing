@@ -11,7 +11,7 @@ class Testthingmac < Formula
   else
     # For ARM Macs (mac)
     url "https://github.com/ItsRiprod/TestThing/releases/download/v0.10.76/DeskThing-0.10.76-arm64-mac.zip"
-    sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    sha256 "a2390ae2229228678afa21486f0e502648a543ec103df730b93472ef88ba423e"
   end
 
   # Prevent Homebrew from attempting to fix linkage
